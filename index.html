@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/c3d950556c.js" crossorigin="anonymous"></script>
+        <title>Fashion-Shop</title>
+</head>
+<body>
+        <!-- Titre:Fashion-Shop -->
+  <header>Fashion-Shop</header>
+      <!-- image 1 -->
+      <div class="flex-box">
+       <div id="supprimer" class="box1">
+      <img src="../images/bl4.jpg" alt="">
+        <p>9000</p>
+            <div class="bl1">
+               <i id="coeur" onclick="coeur()" class="fa-solid fa-heart"></i> 
+               <button onclick="diminuer(-1)">-</button>
+               <span id="compteur">0</span>
+               <button onclick="ajouter(+1)">+</button>
+            </div>
+    <button id="supprimer" onclick="supprimer()" class="supprimer">supprimer</button>
+      </div>
+           <!-- image 2 -->
+      <div id="supprimer2" class="box2">
+        <img src="../images/bl1.jpg" alt="">
+        <p>8000</p>
+           <div class="bl2">
+                <i id="coeur2" onclick="coeur2()" class="fa-solid fa-heart"></i> 
+               <button onclick="moins(-1)">-</button>
+               <span id="compteurs">0</span>
+               <button onclick="plus(+1)">+</button>
+            </div>
+     <button id="supprimer2" onclick="supprimer2()" class="supprimer">supprimer</button>
+     </div>
+           <!-- image 3 -->
+      <div id="supprimer3" class="box3">
+     <img src="../images/bl5.jpg" alt="">
+     <p>10000</p>
+             <div class="bl3">
+                <i id="coeur3" onclick="coeur3()" class="fa-solid fa-heart"></i>  
+                <button onclick="minus(-1)">-</button>
+               <span id="compteurx">0</span>
+               <button onclick="add(+1)">+</button>
+               </div>
+        <button id="supprimer3" onclick="supprimer3()" class="supprimer">supprimer</button>
+        </div>
+        </div>
+</body>
+</html>
